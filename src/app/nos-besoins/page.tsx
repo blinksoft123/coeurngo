@@ -21,7 +21,7 @@ import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: "Nos Besoins",
-  description: "Consultez les besoins matériels, humains et financiers prioritaires de Cœurs Sans Frontières pour soutenir les prisonniers, orphelins et enfants démunis au Cameroun.",
+  description: "Consultez les besoins matériels, humains et financiers prioritaires de Coeur Sans Frontière pour soutenir les prisonniers, orphelins et enfants démunis au Cameroun.",
 };
 
 export default function NosBesoinsPage() {

@@ -18,7 +18,7 @@ import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: "Nos Partenaires",
-  description: "Découvrez les partenaires institutionnels, humanitaires et solidaires de Cœurs Sans Frontières : Ministère de la Justice, Samaritan's Purse et partenaires locaux.",
+  description: "Découvrez les partenaires institutionnels, humanitaires et solidaires de Coeur Sans Frontière : Ministère de la Justice, Samaritan's Purse et partenaires locaux.",
 };
 
 export default function PartenairesPage() {
@@ -35,7 +35,7 @@ export default function PartenairesPage() {
             Nos Partenaires Institutionnels & Solidaires
           </h1>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Agir ensemble pour maximiser l&apos;impact. Découvrez les institutions publiques et organisations qui font confiance à Cœurs Sans Frontières.
+            Agir ensemble pour maximiser l&apos;impact. Découvrez les institutions publiques et organisations qui font confiance à Coeur Sans Frontière.
           </p>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function PartenairesPage() {
           <SectionHeader
             badge="Nouvelles Synergies"
             title="Devenir Partenaire de"
-            highlight="Cœurs Sans Frontières"
+            highlight="Coeur Sans Frontière"
             subtitle="Entreprises citoyennes, ONG internationales, institutions bilatérales ou fondations philanthropiques : unissons nos forces."
             light
           />

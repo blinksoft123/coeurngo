@@ -21,7 +21,7 @@ import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: "Nos Actions",
-  description: "Découvrez l'ensemble des actions humanitaires de Cœurs Sans Frontières : assistance aux prisonniers et enfants, éducation, santé, formation professionnelle et nutrition au Cameroun.",
+  description: "Découvrez l'ensemble des actions humanitaires de Coeur Sans Frontière : assistance aux prisonniers et enfants, éducation, santé, formation professionnelle et nutrition au Cameroun.",
 };
 
 export default function NosActionsPage() {
@@ -181,7 +181,7 @@ export default function NosActionsPage() {
             Nos Domaines d&apos;Action
           </h1>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            De la réinsertion carcérale à la protection des enfants orphelins, découvrez comment Cœurs Sans Frontières intervient concrètement au Cameroun.
+            De la réinsertion carcérale à la protection des enfants orphelins, découvrez comment Coeur Sans Frontière intervient concrètement au Cameroun.
           </p>
         </div>
       </section>

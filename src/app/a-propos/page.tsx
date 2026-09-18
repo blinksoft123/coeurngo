@@ -21,7 +21,7 @@ import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
   title: "À Propos",
-  description: "Découvrez l'histoire, la gouvernance et l'organisation de Cœurs Sans Frontières, ONG humanitaire d'assistance et de bienfaisance au Cameroun depuis 2009.",
+  description: "Découvrez l'histoire, la gouvernance et l'organisation de Coeur Sans Frontière, ONG humanitaire d'assistance et de bienfaisance au Cameroun depuis 2009.",
 };
 
 export default function AProposPage() {
@@ -35,7 +35,7 @@ export default function AProposPage() {
             Institution & Histoire
           </span>
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white">
-            À Propos de Cœurs Sans Frontières
+            À Propos de Coeur Sans Frontière
           </h1>
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
             Organisation Humanitaire pour l&apos;Assistance et la Bienfaisance, reconnue au Cameroun et engagée sans relâche auprès des plus vulnérables.
@@ -101,7 +101,7 @@ export default function AProposPage() {
                 badge="Histoire & Racines"
                 title="Un engagement ininterrompu depuis"
                 highlight="2009 au Cameroun"
-                subtitle="Née d'une volonté profonde de soulager la détresse des personnes isolées, Cœurs Sans Frontières s'est constituée pour apporter une réponse concrète là où les besoins sont les plus criants."
+                subtitle="Née d'une volonté profonde de soulager la détresse des personnes isolées, Coeur Sans Frontière s'est constituée pour apporter une réponse concrète là où les besoins sont les plus criants."
               />
 
               <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
@@ -128,7 +128,7 @@ export default function AProposPage() {
                 <div className="relative w-full aspect-[3/4] rounded-xl overflow-hidden mb-3 bg-slate-200">
                   <Image
                     src="/images/presidente_fondatrice.png"
-                    alt="Présidente fondatrice de Cœurs Sans Frontières"
+                    alt="Présidente fondatrice de Coeur Sans Frontière"
                     fill
                     className="object-cover object-top"
                   />
@@ -149,7 +149,7 @@ export default function AProposPage() {
                 <div className="relative w-full aspect-[3/4] rounded-xl overflow-hidden mb-3 bg-slate-200">
                   <Image
                     src="/images/actuelle_presidente.png"
-                    alt="Actuelle Présidente de Cœurs Sans Frontières"
+                    alt="Actuelle Présidente de Coeur Sans Frontière"
                     fill
                     className="object-cover object-top"
                   />
@@ -224,7 +224,7 @@ export default function AProposPage() {
                 badge="Gouvernance Statutaire"
                 title="Une organisation rigoureuse,"
                 highlight="un fonctionnement bénévole"
-                subtitle="Cœurs Sans Frontières s'appuie sur une structure démocratique et transparente pour garantir que chaque ressource bénéficie intégralement aux destinataires finaux."
+                subtitle="Coeur Sans Frontière s'appuie sur une structure démocratique et transparente pour garantir que chaque ressource bénéficie intégralement aux destinataires finaux."
               />
 
               <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
@@ -269,7 +269,7 @@ export default function AProposPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 aspect-[4/3]">
                 <Image
                   src="/images/distribution_scolaire_p2.jpg"
-                  alt="Membres de Cœurs Sans Frontières en action"
+                  alt="Membres de Coeur Sans Frontière en action"
                   fill
                   className="object-cover"
                 />

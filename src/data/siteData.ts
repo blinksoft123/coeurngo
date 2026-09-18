@@ -51,7 +51,7 @@ export interface ArchivePhoto {
 }
 
 export const SITE_DATA = {
-  name: "Cœurs Sans Frontières",
+  name: "Coeur Sans Frontière",
   acronym: "CSF",
   legalType: "Organisation Humanitaire pour l'Assistance et la Bienfaisance",
   legalDecision: "Reconnue par Décision n° 001733/RDA/J06/BAPP",
@@ -68,7 +68,7 @@ export const SITE_DATA = {
   },
 
   editorialPresentation: {
-    intro: "Cœurs Sans Frontières est une organisation humanitaire camerounaise pour l'assistance et la bienfaisance, créée en 2009 et légalement reconnue sous la Décision n° 001733/RDA/J06/BAPP.",
+    intro: "Coeur Sans Frontière est une organisation humanitaire camerounaise pour l'assistance et la bienfaisance, créée en 2009 et légalement reconnue sous la Décision n° 001733/RDA/J06/BAPP.",
     missionPlaceholderNotice: "Notice institutionnelle : Les éléments ci-dessous résument l'engagement documenté sur le terrain depuis 2009 par les membres et le bureau de l'association.",
     mission: "Apporter une aide concrète, spirituelle, éducative et matérielle aux populations vulnérables — notamment les mineurs et femmes en détention, les enfants démunis et les orphelinats partenaires — à travers la réinsertion par les métiers, le don de fournitures et l'accompagnement humain.",
     values: [
@@ -302,7 +302,7 @@ export const SITE_DATA = {
       category: "materiel",
       badge: "Protection de l'Enfance",
       shortDesc: "Présence continue auprès des tout-petits sans soutien familial : pensions, nutrition et cadeaux de Noël.",
-      fullDesc: "Cœurs Sans Frontières apporte un appui régulier à deux centres d'accueil orphelins au Cameroun, en assurant le règlement de pensions scolaires, l'approvisionnement en vivres et la célébration chaleureuse des fêtes.",
+      fullDesc: "Coeur Sans Frontière apporte un appui régulier à deux centres d'accueil orphelins au Cameroun, en assurant le règlement de pensions scolaires, l'approvisionnement en vivres et la célébration chaleureuse des fêtes.",
       targetAudience: "Enfants orphelins résidents dans les 02 structures partenaires",
       activities: [
         "Règlement partiel ou total des frais d'inscription scolaire",
@@ -362,7 +362,7 @@ export const SITE_DATA = {
       name: "Ministère de la Justice du Cameroun",
       type: "Institution publique étatique",
       role: "Autorisation légale d'accès et d'intervention en milieu pénitentiaire",
-      details: "Collaboration officielle permettant à Cœurs Sans Frontières de pénétrer dans les établissements carcéraux pour animer les formations professionnelles, les études bibliques et distribuer l'aide matérielle et sanitaire.",
+      details: "Collaboration officielle permettant à Coeur Sans Frontière de pénétrer dans les établissements carcéraux pour animer les formations professionnelles, les études bibliques et distribuer l'aide matérielle et sanitaire.",
       status: "Officiel"
     },
     {

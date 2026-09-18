@@ -106,7 +106,7 @@ function ContactFormInner() {
               Permanence Officielle
             </span>
             <h3 className="text-2xl font-black text-white">
-              CŒURS SANS FRONTIÈRES
+              COEUR SANS FRONTIÈRE
             </h3>
             <p className="text-xs text-slate-300">
               {SITE_DATA.legalType}
@@ -191,7 +191,7 @@ function ContactFormInner() {
               <span>Message envoyé avec succès !</span>
             </div>
             <p className="text-xs leading-relaxed text-slate-700">
-              Merci pour votre engagement. Les membres du bureau de Cœurs Sans Frontières ont bien reçu votre correspondance et vous répondront dans les meilleurs délais.
+              Merci pour votre engagement. Les membres du bureau de Coeur Sans Frontière ont bien reçu votre correspondance et vous répondront dans les meilleurs délais.
             </p>
             <button
               onClick={() => setSubmitSuccess(false)}

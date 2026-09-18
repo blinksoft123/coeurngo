@@ -38,7 +38,7 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/distribution_scolaire_p1.jpg"
-            alt="Action solidaire de Cœurs Sans Frontières"
+            alt="Action solidaire de Coeur Sans Frontière"
             fill
             priority
             className="object-cover object-center opacity-25 mix-blend-luminosity scale-105 filter brightness-75"
@@ -121,7 +121,7 @@ export default function HomePage() {
                 <div className="relative w-56 h-64 sm:w-64 sm:h-72 transition-transform duration-500 group-hover:scale-105">
                   <Image
                     src="/images/logo.png"
-                    alt="Emblème officiel Cœurs Sans Frontières"
+                    alt="Emblème officiel Coeur Sans Frontière"
                     fill
                     className="object-contain filter drop-shadow-2xl"
                     priority
@@ -162,7 +162,7 @@ export default function HomePage() {
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 aspect-[4/3] bg-slate-100">
                 <Image
                   src="/images/presidente_fondatrice.png"
-                  alt="Présidente Fondatrice de Cœurs Sans Frontières"
+                  alt="Présidente Fondatrice de Coeur Sans Frontière"
                   fill
                   className="object-cover object-top"
                 />
@@ -271,7 +271,7 @@ export default function HomePage() {
             badge="Domaines d'Intervention"
             title="Des actions ciblées pour"
             highlight="un impact humain direct"
-            subtitle="Découvrez les 5 axes stratégiques reconnus à travers lesquels Cœurs Sans Frontières déploie son engagement au quotidien."
+            subtitle="Découvrez les 5 axes stratégiques reconnus à travers lesquels Coeur Sans Frontière déploie son engagement au quotidien."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -328,7 +328,7 @@ export default function HomePage() {
               </h2>
 
               <p className="text-base text-slate-600 leading-relaxed">
-                Avec l&apos;autorisation officielle du Ministère de la Justice, Cœurs Sans Frontières intervient régulièrement dans les quartiers sensibles des prisons (notamment le quartier des mineurs, le quartier des femmes et le quartier de haute sécurité Kosovo 08).
+                Avec l&apos;autorisation officielle du Ministère de la Justice, Coeur Sans Frontière intervient régulièrement dans les quartiers sensibles des prisons (notamment le quartier des mineurs, le quartier des femmes et le quartier de haute sécurité Kosovo 08).
               </p>
 
               {/* 3 Pillars */}
@@ -491,7 +491,7 @@ export default function HomePage() {
               </h2>
 
               <p className="text-slate-300 text-base leading-relaxed">
-                Les enfants représentent l&apos;avenir mais restent les premières victimes de la précarité. Cœurs Sans Frontières agit auprès d&apos;eux avec douceur, rigueur et persévérance.
+                Les enfants représentent l&apos;avenir mais restent les premières victimes de la précarité. Coeur Sans Frontière agit auprès d&apos;eux avec douceur, rigueur et persévérance.
               </p>
 
               {/* Pillars */}
@@ -593,7 +593,7 @@ export default function HomePage() {
           <SectionHeader
             badge="Ancrage Géographique"
             title="Où intervient"
-            highlight="Cœurs Sans Frontières ?"
+            highlight="Coeur Sans Frontière ?"
             subtitle="Nos équipes de bénévoles et encadreurs concentrent leurs efforts sur des zones ciblées du Cameroun conformément aux éléments statutaires."
           />
 
@@ -652,7 +652,7 @@ export default function HomePage() {
             badge="Collaborations & Synergies"
             title="Ensemble, nous pouvons"
             highlight="aller plus loin."
-            subtitle="Cœurs Sans Frontières s'appuie sur des partenaires institutionnels, humanitaires et logistiques pour concrétiser ses actions."
+            subtitle="Coeur Sans Frontière s'appuie sur des partenaires institutionnels, humanitaires et logistiques pour concrétiser ses actions."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

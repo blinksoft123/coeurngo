@@ -26,7 +26,7 @@ export async function POST(request: Request) {
     // Ici on simule une réception réussie et sécurisée
     return NextResponse.json({
       success: true,
-      message: 'Votre message a bien été transmis à la permanence de Cœurs Sans Frontières. Nous vous répondrons dans les plus brefs délais.',
+      message: 'Votre message a bien été transmis à la permanence de Coeur Sans Frontière. Nous vous répondrons dans les plus brefs délais.',
       receivedAt: new Date().toISOString(),
     });
   } catch (err) {

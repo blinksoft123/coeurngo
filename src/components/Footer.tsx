@@ -23,14 +23,14 @@ export default function Footer() {
               <div className="relative w-12 h-14 flex-shrink-0 bg-white/5 rounded-xl p-1 border border-white/10 group-hover:border-emerald-500/50 transition-colors">
                 <Image
                   src="/images/logo.png"
-                  alt="Logo officiel Cœurs Sans Frontières"
+                  alt="Logo officiel Coeur Sans Frontière"
                   fill
                   className="object-contain"
                 />
               </div>
               <div>
                 <span className="block font-black text-xl text-white tracking-tight">
-                  CŒURS SANS FRONTIÈRES
+                  COEUR SANS FRONTIÈRE
                 </span>
                 <span className="block text-xs font-semibold text-emerald-400 uppercase tracking-wider">
                   Assistance & Bienfaisance
@@ -190,7 +190,7 @@ export default function Footer() {
         {/* Bottom Legal Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>
-            © {currentYear} <strong className="text-slate-200">Cœurs Sans Frontières</strong>. Organisation Humanitaire pour l&apos;Assistance et la Bienfaisance. Tous droits réservés.
+            © {currentYear} <strong className="text-slate-200">Coeur Sans Frontière</strong>. Organisation Humanitaire pour l&apos;Assistance et la Bienfaisance. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4 text-[11px] text-slate-500">
             <span>Enregistrée au Cameroun</span>

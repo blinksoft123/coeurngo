@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_DATA.name}`,
   },
   description:
-    "Cœurs Sans Frontières est une organisation humanitaire d'assistance et de bienfaisance au Cameroun (reconnue Décision n° 001733/RDA/J06/BAPP). Réinsertion en milieu carcéral, parrainage scolaire d'enfants et orphelinats, ateliers savonnerie et couture, santé.",
+    "Coeur Sans Frontière est une organisation humanitaire d'assistance et de bienfaisance au Cameroun (reconnue Décision n° 001733/RDA/J06/BAPP). Réinsertion en milieu carcéral, parrainage scolaire d'enfants et orphelinats, ateliers savonnerie et couture, santé.",
   keywords: [
-    "Cœurs Sans Frontières",
+    "Coeur Sans Frontière",
     "association humanitaire Cameroun",
     "ONG Cameroun",
     "association humanitaire Yaoundé",
@@ -36,29 +36,29 @@ export const metadata: Metadata = {
     "réinsertion prison Yaoundé",
     "savonnerie réinsertion"
   ],
-  authors: [{ name: "Cœurs Sans Frontières" }],
-  creator: "Cœurs Sans Frontières",
-  publisher: "Cœurs Sans Frontières",
+  authors: [{ name: "Coeur Sans Frontière" }],
+  creator: "Coeur Sans Frontière",
+  publisher: "Coeur Sans Frontière",
   metadataBase: new URL("https://coeurs-sans-frontieres.cm"),
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: "https://coeurs-sans-frontieres.cm",
-    title: "CŒURS SANS FRONTIÈRES | Organisation Humanitaire au Cameroun",
+    title: "COEUR SANS FRONTIÈRE | Organisation Humanitaire au Cameroun",
     description: "Un cœur pour chaque personne. Une action pour chaque besoin. Organisation humanitaire reconnue pour l'assistance et la bienfaisance au Cameroun.",
-    siteName: "Cœurs Sans Frontières",
+    siteName: "Coeur Sans Frontière",
     images: [
       {
         url: "/images/logo_original.jpeg",
         width: 800,
         height: 800,
-        alt: "Logo officiel Cœurs Sans Frontières",
+        alt: "Logo officiel Coeur Sans Frontière",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CŒURS SANS FRONTIÈRES | ONG Cameroun",
+    title: "COEUR SANS FRONTIÈRE | ONG Cameroun",
     description: "Organisation Humanitaire pour l'Assistance et la Bienfaisance au Cameroun.",
     images: ["/images/logo_original.jpeg"],
   },

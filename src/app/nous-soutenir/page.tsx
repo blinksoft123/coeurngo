@@ -50,7 +50,7 @@ export default function NousSoutenirPage() {
           <SectionHeader
             badge="Modalités de Soutien"
             title="Quatre façons concrètes d&apos;agir avec"
-            highlight="Cœurs Sans Frontières"
+            highlight="Coeur Sans Frontière"
             subtitle="Choisissez la formule qui correspond le mieux à votre sensibilité et à vos possibilités."
           />
 
@@ -133,7 +133,7 @@ export default function NousSoutenirPage() {
                       Procédure officielle et sécurisée de don
                     </h4>
                     <p className="text-xs text-slate-600 leading-relaxed mt-1">
-                      Par souci de sécurité, de transparence et de conformité réglementaire, <strong>Cœurs Sans Frontières ne publie pas de coordonnées bancaires ou de numéros de transfert direct sans contact préalable</strong>.
+                      Par souci de sécurité, de transparence et de conformité réglementaire, <strong>Coeur Sans Frontière ne publie pas de coordonnées bancaires ou de numéros de transfert direct sans contact préalable</strong>.
                     </p>
                   </div>
                 </div>

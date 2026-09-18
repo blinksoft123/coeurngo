@@ -84,12 +84,12 @@ export default function Navbar() {
             <Link 
               href="/" 
               className="group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 rounded-lg"
-              aria-label="Cœurs Sans Frontières - Accueil"
+              aria-label="Coeur Sans Frontière - Accueil"
             >
               <div className="relative w-11 h-12 flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src="/images/logo.png"
-                  alt="Logo officiel Cœurs Sans Frontières"
+                  alt="Logo officiel Coeur Sans Frontière"
                   fill
                   className="object-contain"
                   priority
@@ -97,7 +97,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-lg sm:text-xl tracking-tight text-slate-900 leading-tight">
-                  CŒURS SANS FRONTIÈRES
+                  COEUR SANS FRONTIÈRE
                 </span>
                 <span className="text-[10px] sm:text-[11px] font-medium text-emerald-700 tracking-wider uppercase">
                   Assistance & Bienfaisance • Yaoundé
@@ -196,7 +196,7 @@ export default function Navbar() {
                 </Link>
 
                 <div className="p-3 bg-slate-50 rounded-xl space-y-2 text-xs text-slate-600">
-                  <p className="font-semibold text-slate-800">CŒURS SANS FRONTIÈRES</p>
+                  <p className="font-semibold text-slate-800">COEUR SANS FRONTIÈRE</p>
                   <p>{SITE_DATA.headquarters}</p>
                   <div className="flex flex-col gap-1 pt-1 text-slate-700 font-medium">
                     <a href={`tel:${SITE_DATA.phones[0].replace(/\s+/g, '')}`} className="flex items-center gap-1.5 text-emerald-700">
