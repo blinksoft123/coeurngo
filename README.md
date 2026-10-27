@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Coeur Sans Frontière (CSF) - Site Officiel
 
-## Getting Started
+Site web institutionnel pour l'organisation humanitaire camerounaise **Coeur Sans Frontière** ([coeursansfrontieres.org](https://coeursansfrontieres.org)).
 
-First, run the development server:
+## 🚀 Technologies
+- **Framework** : Next.js 16 (App Router & Turbopack)
+- **Styling** : Tailwind CSS v4 & Lucide Icons
+- **Langage** : TypeScript
 
+## 🛠️ Démarrage Local
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Déploiement Vercel & Configuration DNS Hostinger
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Déploiement sur Vercel
+1. Rendez-vous sur [vercel.com/new](https://vercel.com/new).
+2. Importez le dépôt GitHub `blinksoft123/coeurngo`.
+3. Cliquez sur **Deploy**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Configuration du Domaine Hostinger (`coeursansfrontieres.org`)
+Dans le panneau **Hostinger hPanel** > **Domaines** > **coeursansfrontieres.org** > **Zone DNS** :
 
-## Learn More
+| Type | Nom / Hôte | Valeur / Cible | TTL |
+| :--- | :--- | :--- | :--- |
+| **A** | `@` | `76.76.21.21` | `300` |
+| **CNAME** | `www` | `cname.vercel-dns.com.` | `300` |
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Association dans Vercel
+Dans votre projet Vercel > **Settings** > **Domains**, ajoutez :
+- `coeursansfrontieres.org`
+- `www.coeursansfrontieres.org` (avec redirection recommandée vers le domaine racine).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
