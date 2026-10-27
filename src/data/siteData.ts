@@ -57,8 +57,8 @@ export const SITE_DATA = {
   legalDecision: "Reconnue par Décision n° 001733/RDA/J06/BAPP",
   creationYear: 2009,
   headquarters: "BP 7017 Yaoundé – Cameroun",
-  phones: ["+237 699 73 51 08", "+237 675 58 93 11"],
-  email: "coeurs10@yahoo.fr",
+  phones: ["+237 699 88 60 55", "+237 675 58 93 11"],
+  email: "info@coeursansfrontieres.org",
   
   taglines: {
     hero: "Un cœur pour chaque personne. Une action pour chaque besoin.",
