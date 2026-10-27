@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://coeurs-sans-frontieres.cm';
+  const baseUrl = 'https://coeursansfrontieres.org';
 
   const routes = [
     '',

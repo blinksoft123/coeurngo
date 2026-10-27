@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://coeurs-sans-frontieres.cm/sitemap.xml',
+    sitemap: 'https://coeursansfrontieres.org/sitemap.xml',
   };
 }
