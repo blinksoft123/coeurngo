@@ -156,8 +156,8 @@ function ContactFormInner() {
           </div>
 
           <div className="pt-4 border-t border-white/10 text-xs text-slate-400 relative z-10">
-            <span className="font-mono text-emerald-400 font-bold block">{SITE_DATA.legalDecision}</span>
-            <span>Association déclarée et reconnue d&apos;utilité sociale au Cameroun.</span>
+            <span className="font-semibold text-emerald-400 block">Organisation humanitaire déclarée</span>
+            <span>Association agréée d&apos;assistance et de bienfaisance au Cameroun.</span>
           </div>
         </div>
 

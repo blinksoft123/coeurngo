@@ -21,8 +21,8 @@ export default function StatCounter() {
             Repères Institutionnels & Statutaires Officiels
           </span>
         </div>
-        <span className="text-xs text-slate-600 font-medium">
-          Source : Décision n° 001733/RDA/J06/BAPP
+        <span className="text-xs text-slate-500 font-medium">
+          Impact documenté sur le terrain
         </span>
       </div>
 

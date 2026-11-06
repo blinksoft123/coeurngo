@@ -44,7 +44,7 @@ export default function Footer() {
 
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-950/60 border border-emerald-800/40 text-emerald-300 text-xs font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>{SITE_DATA.legalDecision}</span>
+              <span>Organisation reconnue au Cameroun</span>
             </div>
 
             <div className="pt-2">

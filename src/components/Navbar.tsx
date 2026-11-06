@@ -46,8 +46,8 @@ export default function Navbar() {
               {SITE_DATA.legalType}
             </span>
             <span className="hidden md:inline text-slate-500">•</span>
-            <span className="hidden md:inline text-slate-400 font-mono text-[11px]">
-              {SITE_DATA.legalDecision}
+            <span className="hidden md:inline text-slate-400 text-[11px]">
+              Yaoundé – Cameroun
             </span>
           </div>
           <div className="flex items-center gap-4 text-slate-300">

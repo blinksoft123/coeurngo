@@ -13,8 +13,8 @@ export default function CTASection() {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-emerald-300 text-xs font-bold uppercase tracking-wider backdrop-blur-md">
-          <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>{SITE_DATA.legalDecision}</span>
+          <Heart className="w-4 h-4 text-rose-400 fill-rose-400" />
+          <span>Solidarité • Éducation • Réinsertion</span>
         </div>
 
         <div className="space-y-4 max-w-3xl mx-auto">

@@ -40,6 +40,12 @@ export default function AProposPage() {
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
             Organisation Humanitaire pour l&apos;Assistance et la Bienfaisance, reconnue au Cameroun et engagée sans relâche auprès des plus vulnérables.
           </p>
+          <div className="pt-2 flex justify-center">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold text-emerald-300 bg-emerald-950/60 border border-emerald-500/30 backdrop-blur-md">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              <span>Arrêté d&apos;enregistrement officiel : <strong className="font-mono text-white">{SITE_DATA.legalDecision}</strong></span>
+            </span>
+          </div>
         </div>
       </section>
 
@@ -116,7 +122,7 @@ export default function AProposPage() {
               <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200/80 flex items-start gap-3">
                 <ShieldCheck className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
                 <div className="text-xs text-slate-700 leading-relaxed">
-                  <strong>Reconnaissance de l&apos;État :</strong> L&apos;autorisation accordée par le Ministère de la Justice permet à nos équipes d&apos;accéder régulièrement aux prisons pour encadrer et former les personnes détenues.
+                  <strong>Reconnaissance officielle de l&apos;État :</strong> Enregistrée sous la <strong>{SITE_DATA.legalDecision}</strong>. L&apos;autorisation formelle accordée par le Ministère de la Justice permet à nos équipes d&apos;accéder régulièrement aux établissements pénitentiaires pour apporter secours, formation et espérance.
                 </div>
               </div>
             </div>
